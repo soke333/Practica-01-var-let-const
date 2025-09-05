@@ -1,0 +1,12 @@
+function displayMessage() {
+  var message = "Hello, World!";
+
+  if (true) {
+    let message = "Hello, JavaScript!";
+    console.log("Dentro del if:", message);
+  }
+
+  console.log("Fuera del if:", message);
+}
+
+displayMessage();
