@@ -1,0 +1,18 @@
+const funcs = [];
+
+for (var i = 0; i < 3; i++) {
+  funcs.push(function() {
+    console.log(i); 
+  });
+}
+
+funcs.forEach(func => func()); 
+const funcsLet = [];
+
+for (let j = 0; j < 3; j++) {
+  funcsLet.push(function() {
+    console.log(j); 
+  });
+}
+
+funcsLet.forEach(func => func());
